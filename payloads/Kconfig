@@ -18,6 +18,12 @@ config PAYLOAD_NONE
 	  For such an image to be useful, you have to use 'cbfstool'
 	  to add a payload to the ROM image later.
 
+config PAYLOAD_DEPTHCHARGE
+	bool "Depthcharge"
+	help
+	  Select this option if you want to set depthcharge as your primary
+          payload.
+
 config PAYLOAD_ELF
 	bool "An ELF executable payload"
 	help
